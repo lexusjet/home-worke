@@ -1,0 +1,29 @@
+﻿Построение начато 31.01.2022 23:03:00.
+     1>Проект "D:\projects C++\first _lesson\first _lesson\first _lesson.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\first _lesson.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\first _lesson.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "first _lesson.cpp"
+         first _lesson.cpp
+     1>d:\projects c++\first _lesson\first _lesson\first _lesson.cpp(104): warning C4305: инициализация: усечение из "double" к "float"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects C++\first _lesson\Debug\first _lesson.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\first _lesson.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\projects C++\first _lesson\Debug\first _lesson.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects C++\first _lesson\Debug\first _lesson.lib" /MACHINE:X86 "Debug\first _lesson.exe.embed.manifest.res"
+         "Debug\first _lesson.obj"
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\first _lesson.exe.embed.manifest" /manifest "Debug\first _lesson.exe.intermediate.manifest"
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         first _lesson.vcxproj -> D:\projects C++\first _lesson\Debug\first _lesson.exe
+       FinalizeBuildStatus:
+         Файл "Debug\first _lesson.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\first _lesson.lastbuildstate".
+     1>Построение проекта "D:\projects C++\first _lesson\first _lesson\first _lesson.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.60
