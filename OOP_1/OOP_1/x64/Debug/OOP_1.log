@@ -1,0 +1,3 @@
+﻿  OOP_1.cpp
+D:\studies\courses(c++)\ООП\OOP_1\OOP_1\OOP_1.cpp(63): warning C4715: Stack::push: значение возвращается не при всех путях выполнения
+  OOP_1.vcxproj -> D:\studies\courses(c++)\ООП\OOP_1\x64\Debug\OOP_1.exe
