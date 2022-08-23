@@ -41,6 +41,9 @@ public:
 	
 	Student (char* f_name , char* s_name, bool gen = false, size_t ag = 0, size_t weig = 0, int ed_ye = 0)
 	{
+		if (amount == 0) amount = 1;
+		else amount++;
+
 		first_name = f_name;
 		second_name = s_name;
 		age = ag;
@@ -48,6 +51,7 @@ public:
 		if (gen) gender = "male";
 		else gender = "female";
 		year_of_education = ed_ye;
+
 	}
 	~Student() {};
 	void change_year(size_t year) 
@@ -69,7 +73,9 @@ public:
 		cout << "gender: "<< gender << endl;
 		cout << "age: "<< age << endl;
 		cout << "weight: "<< weight << endl;
-		cout << "year of education:"<< year_of_education << endl;		
+		cout << "year of education:"<< year_of_education << endl;
+		cout << "amount of students: " << amount << endl;
+		cout << endl;
 	}
 
 
@@ -125,9 +131,10 @@ public:
 	}
 };
 
+int Student::amount = 0;
+
 int main()
 {
-
 	char name[] = "alex";
 	char second[] = "smirnof";
 	Student pop(name, second, true, 15, 42, 1);
