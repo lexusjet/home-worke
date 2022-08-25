@@ -1,0 +1,4 @@
+﻿  OOP_3.cpp
+D:\studies\courses(c++)\ООП\home-worke\OOP_3\OOP_3\OOP_3.cpp(37,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\studies\courses(c++)\ООП\home-worke\OOP_3\OOP_3\OOP_3.cpp(95,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  OOP_3.vcxproj -> D:\studies\courses(c++)\ООП\home-worke\OOP_3\x64\Debug\OOP_3.exe
