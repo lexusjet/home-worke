@@ -1,4 +1,7 @@
 ﻿  Blackjack.cpp
   Card.cpp
+D:\studies\courses(c++)\ООП\home-worke\Blackjack\Blackjack\Card.cpp(15,29): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\studies\courses(c++)\ООП\home-worke\Blackjack\Blackjack\Card.cpp(16,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Hand.cpp
   Создание кода...
   Blackjack.vcxproj -> D:\studies\courses(c++)\ООП\home-worke\Blackjack\x64\Debug\Blackjack.exe
