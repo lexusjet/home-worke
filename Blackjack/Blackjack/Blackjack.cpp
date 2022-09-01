@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include "Hand.h"
-#include "Card.h"
-#include "Enums.h"
+//#include "Card.h"
+//#include "Enums.h"
 
 
 int main()
