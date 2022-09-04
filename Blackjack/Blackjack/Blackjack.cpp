@@ -3,16 +3,23 @@
 
 #include <iostream>
 #include "Hand.h"
-//#include "Card.h"
-//#include "Enums.h"
 
 
 int main()
 {
+	SetConsoleOutputCP(CP_UTF8);
+	setvbuf(stdout, nullptr, _IOFBF, 1000);
+
 	Hand a;
-	Card b(0, 6, true);
+	Card b(diamonds, two, open);
+	Card c(spades, king, open );
+
 	a.Add(&b);
-	std::cout << a.GetValue() <<std::endl; 
+
+	std::cout << b  <<" " << c << std::endl;
+
+
+
 }
 
 

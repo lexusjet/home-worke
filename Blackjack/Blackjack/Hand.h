@@ -16,7 +16,7 @@ public:
 	void Clear();
 
 	// return sum of all cards in hand  
-	int GetValue();
+	int GetValue() const;
 
 };
 

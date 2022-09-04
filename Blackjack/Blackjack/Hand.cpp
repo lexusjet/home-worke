@@ -18,7 +18,7 @@ void Hand::Clear()
 }
 
 // return sum of all cards in hand  
-int Hand::GetValue()
+int Hand::GetValue() const
 {
 	auto lambda = [](int x, Card *y)  {return ( x + y->GetValue()); };
 	return  std::accumulate(hand.begin(), hand.end(), static_cast <int>(0), lambda);
