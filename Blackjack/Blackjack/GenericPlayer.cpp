@@ -15,10 +15,6 @@ bool GenericPlayer::IsBoosted() const
 // выводит на экран им€ игрока и объ€вл€ет, что у него перебор.
 void GenericPlayer::Bust() const
 {
-
-	if(IsBoosted() == true)
-	{
-		std::cout << "the" << name << " has a bust.";
-	}
+	std::cout << "The " << name << " has a bust \n";	
 }
 

@@ -4,11 +4,8 @@
 
 class GenericPlayer : public Hand
 {
-protected:
-	// player name
-	std::string name;
-
 public:	
+	std::string name;
 
 	GenericPlayer(std::string name);
 

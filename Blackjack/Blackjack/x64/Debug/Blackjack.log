@@ -1,2 +1,17 @@
-﻿  Blackjack.cpp
-  Blackjack.vcxproj -> D:\studies\courses(c++)\ООП\home-worke\Blackjack\x64\Debug\Blackjack.exe
+﻿  Deck.cpp
+D:\studies\courses(c++)\OOP\home-worke\Blackjack\Blackjack\Deck.cpp(29,22): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(4735,64): warning C4244: аргумент: преобразование "_Diff" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\algorithm(4813): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Random_shuffle1<_RanIt,Deck::Shuffle::<lambda_3953dac580a33b739042de1ba8f9752d>>(_RanIt,_RanIt,_RngFn &)"
+          with
+          [
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Card *>>>,
+              _RngFn=Deck::Shuffle::<lambda_3953dac580a33b739042de1ba8f9752d>
+          ]
+D:\studies\courses(c++)\OOP\home-worke\Blackjack\Blackjack\Deck.cpp(31): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::random_shuffle<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Deck::Shuffle::<lambda_3953dac580a33b739042de1ba8f9752d>&>(_RanIt,_RanIt,_RngFn)"
+          with
+          [
+              _Ty=Card *,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Card *>>>,
+              _RngFn=Deck::Shuffle::<lambda_3953dac580a33b739042de1ba8f9752d> &
+          ]
+  Blackjack.vcxproj -> D:\studies\courses(c++)\OOP\home-worke\Blackjack\x64\Debug\Blackjack.exe

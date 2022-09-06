@@ -4,11 +4,16 @@
 
 class Hand
 {
-protected:
-	std::vector<Card* > hand;
 public:
+	std::vector<Card* > hand;
+
 	Hand();
 	~Hand();
+
+	friend std::ostream& operator<<(std::ostream& ss, Hand hand_);
+
+	Card& operator[](size_t i);
+
 	// add card to hande
 	void Add(Card*);
 
@@ -18,5 +23,6 @@ public:
 	// return sum of all cards in hand  
 	int GetValue() const;
 
+	size_t size();
 };
 

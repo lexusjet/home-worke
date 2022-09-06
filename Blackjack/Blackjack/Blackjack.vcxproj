@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="Blackjack.cpp" />
     <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GenericPlayer.cpp" />
     <ClCompile Include="Hand.cpp" />
     <ClCompile Include="House.cpp" />
@@ -148,6 +150,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GenericPlayer.h" />
     <ClInclude Include="Hand.h" />
     <ClInclude Include="Enums.h" />

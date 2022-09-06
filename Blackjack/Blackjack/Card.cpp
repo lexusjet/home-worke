@@ -11,7 +11,9 @@ void Card::Flip()
 
 int Card::GetValue() 
 {
-    return (this->card_value);
+    if ((card_value > 10) && (card_value < 14)) return 10;
+    else if (card_value == ace) return 11;
+    else return card_value;
 }
 
 Card::Card(Suit a, Value b, open_closed c): card_value(b) , card_pos(c)
@@ -47,7 +49,7 @@ Card::Card(int a, int b, bool c) : card_pos(c)
     default: card_suit = u8"eror";
         break;
     }
-    if ((b > 0) && (b < 10)) card_value = b;
+    if ((b > 1) && (b < 15)) card_value = b;
 }
 
 Card::Card(std::string a, int b , bool c) : card_pos(c)
@@ -58,17 +60,35 @@ Card::Card(std::string a, int b , bool c) : card_pos(c)
     else if (a == u8"clubs")card_suit = a;
     else if (a == u8"spades")card_suit = a;
 
-    if ((b > 0) && (b < 10)) card_value = b;
+    if ((b > 1) && (b < 15)) card_value = b;
 }
-
 
 std::ostream& operator<<(std::ostream& a, Card card)
 {
     using namespace std;
+
     if (card.card_pos == open) 
     {
-        
-        cout << card.GetValue() << u8" ";
+        string value;
+        if (card.GetValue() < 11) value = to_string(card.GetValue());
+        switch (card.GetValue())
+        {
+        case jack: value = u8"jack";
+            break;
+        case queen: value = u8"queen";
+            break;
+        case king: value = u8"king";
+            break;
+        case ace: value = u8"ace";
+            break;
+        default: value = to_string(card.GetValue());
+            break;
+        }
+
+
+        cout << value << u8" ";
+
+        cout.flush();
         HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 
         if (card.card_suit == u8"diamonds") 

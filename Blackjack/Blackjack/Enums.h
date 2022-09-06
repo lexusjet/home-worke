@@ -12,11 +12,10 @@ enum Value
 	eight = 8,
 	nine = 9,
 	ten = 10,
-	jack = 10,
-	queen = 10,
-	king = 10,
-	joker = 10,
-	ace = 1
+	jack = 11,
+	queen = 12,
+	king = 13,
+	ace = 14
 };
 
 enum Suit 
