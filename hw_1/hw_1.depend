@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1666099316 source:d:\projects(c++)\hw_1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"PhoneBook.h"
+
+1666089065 source:d:\projects(c++)\hw_1\src\person.cpp
+	"Person.h"
+	<tuple>
+
+1666089714 d:\projects(c++)\hw_1\include\person.h
+	<string>
+	<optional>
+	<iostream>
+
+1666097883 source:d:\projects(c++)\hw_1\src\phonenumber.cpp
+	"PhoneNumber.h"
+
+1666093751 d:\projects(c++)\hw_1\include\phonenumber.h
+	<string>
+	<optional>
+	<iostream>
+	<tuple>
+
+1666097696 source:d:\projects(c++)\hw_1\src\phonebook.cpp
+	"PhoneBook.h"
+
+1666035188 d:\projects(c++)\hw_1\include\phonebook.h
+	"Person.h"
+	"PhoneNumber.h"
+	<tuple>
+	<vector>
+	<utility>
+	<fstream>
+	<algorithm>
+
