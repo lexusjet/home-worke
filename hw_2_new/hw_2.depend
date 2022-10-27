@@ -1,0 +1,76 @@
+# depslib dependency file v1.0
+1666137851 source:d:\projects c++\hw_2\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<chrono>
+	"File.h"
+	"finders.h"
+
+1666130265 source:d:\projects c++\hw_2\src\file.cpp
+	"File.h"
+
+1666132881 d:\projects c++\hw_2\include\file.h
+	<string>
+	<fstream>
+
+1666138749 source:d:\projects c++\hw_2\src\finders.cpp
+
+1666138798 d:\projects c++\hw_2\include\finders.h
+	<string>
+	<map>
+	<algorithm>
+
+1666138749 source:d:\projects(c++)\hw_2\src\finders.cpp
+
+1666178660 source:d:\projects(c++)\hw_2\src\file.cpp
+	"File.h"
+
+1666178660 d:\projects(c++)\hw_2\include\file.h
+	<string>
+	<fstream>
+
+1666205910 source:d:\projects(c++)\hw_2\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<chrono>
+	<functional>
+	<utility>
+	"File.h"
+	"finders.h"
+
+1666205889 d:\projects(c++)\hw_2\include\finders.h
+	<string>
+	<map>
+	<algorithm>
+
+1666178660 source:d:\projects(c++)\hw_2_new\src\file.cpp
+	"File.h"
+
+1666178660 d:\projects(c++)\hw_2_new\include\file.h
+	<string>
+	<fstream>
+
+1666138749 source:d:\projects(c++)\hw_2_new\src\finders.cpp
+
+1666803370 source:d:\projects(c++)\hw_2_new\main.cpp
+	<iostream>
+	<vector>
+	<deque>
+	<string>
+	<queue>
+	<algorithm>
+	<functional>
+	<utility>
+	<thread>
+	<mutex>
+	<condition_variable>
+	"File.h"
+	"finders.h"
+
+1666205889 d:\projects(c++)\hw_2_new\include\finders.h
+	<string>
+	<map>
+	<algorithm>
+

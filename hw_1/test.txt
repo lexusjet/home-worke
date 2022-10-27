@@ -1,0 +1,9 @@
+SECOND_NAME FIRST_NAME PATRONIMIC + 3 815 5554755
+Ivanov Sergey Georgivich + 555 555 555
+Shelby Artur + 8 999 5555477
+alex swirnow ivanovich + 7 905 808 12
+kiril ramerov andreev + 8 858 8018
+alex swir ivanovich + 8 8 8
+Pavel Wernow + 8 904 505 4
+Kotov Vasilii Eliseevich + 8 906 3257711
+Smirnova Oksana Andreeva + 8 888 888 77

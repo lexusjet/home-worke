@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1666682469 source:d:\projects(c++)\hw_4\main.cpp
+	<iostream>
+	<array>
+	<deque>
+	<time.h>
+	<vector>
+	<list>
+	<stack>
+	<queue>
+	<numeric>
+	<algorithm>
+	<math.h>
+
