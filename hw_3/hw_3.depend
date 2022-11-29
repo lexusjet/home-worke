@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1666453343 source:d:\projects(c++)\hw_3\main.cpp
-	<iostream>
-	<list>
-	<utility>
-	<numeric>
-	<cmath>
-	<vector>
-
